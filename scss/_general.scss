@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container__father{
+    width: 300px;
+    height: 300px;
+    margin: 80px auto;
+    background-image: linear-gradient(red, yellow);
+    .container{
+      
+        width: 300px;
+        height: 340px;
+        margin-top: 70px;
+        .cont__title{
+            text-align: center;
+            font-family: Kenia;
+            font-size: 3rem;
+        }
+    }
+}
+.aabb{
+    transform: scale(1);
+    transition: all ease 1s;
+    background-color: #000;
+    color: white;
+}
